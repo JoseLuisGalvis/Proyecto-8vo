@@ -3571,11 +3571,17 @@ footer {
         float: right;
         font-size:1em;
         color: #FFFF00;
-        margin: 1.5em;
+        margin: 1em 0.7em 0.5em 1em;
+    }
+
+    #myVideo {
+        width: 97%;
+        height: 99%;
+        padding: 0.5em 0.2em;
     }
 
     .content {
-        width: 70%;
+        width: 67%;
     }
 
     /* ############## *  **     Cuerpo 2    **  * ################ */
@@ -3588,7 +3594,8 @@ footer {
     #c2-video iframe {
         width: 7em;
         height: 6em;
-        margin:1em 0 0 0;
+        margin: 0.5em 0 0 0;
+        padding: 0.5em 0.2em;
     }
 
     #c2-texto-izquierda  {
@@ -3605,7 +3612,7 @@ footer {
     
     #c2-texto-izquierda p {
         display: block;
-        font-size: 0.6em;
+        font-size: 0.55em;
         margin: 0.75em 0 0.75em 0;
     }
     
@@ -3637,7 +3644,7 @@ footer {
     }
     
     .c2-imagenes img {
-        width: 5em;
+        width: 4em;
         height: 6em;
     }
     
@@ -3650,7 +3657,7 @@ footer {
     
     #c2-texto-derecha p {
         display: block;
-        font-size: 0.6em;
+        font-size: 0.56em;
         text-align: justify;
         margin: 0 1em 0 0;
     }
@@ -3683,7 +3690,7 @@ footer {
     }
 
     #c3-izquierda iframe {
-        width: 12em;
+        width: 10em;
         height: 10em;
         margin: 0.5em 1em;
     }
