@@ -53,11 +53,12 @@ body {
 }
 
 #barra-navegacion{
+    position:relative; 
     display: flex;
     margin: 0em;
     justify-content: space-between;
     padding: 0.75em;
-    z-index: 3;
+    z-index: 1;
 }
 
 #menu ul {
@@ -120,20 +121,22 @@ body {
 /* Estructura General de la Portada */
 
 #myVideo {
-  position: absolute;
-  top:0;
-  left:0;
-  width: 98%;
-  height: 98%;
-  object-fit: cover;
-  z-index: -1;
+    top:0;
+    box-sizing: 3px;
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+    padding: 0.25em 0.5em;
 }
 
 .pensamiento p {
+    position:relative; 
     float: right;
     font-size:1.7em;
     color: #FFFF00;
     margin: 2em;
+    z-index: 1;
 }
 
 /* Este es el background del Botón de Pausar el Video */
