@@ -113,6 +113,7 @@ body {
 .cuerpo1 {
     min-height: 100vh;
     position: relative;
+    background-color: #00FFFF;
 }
 
 /* */
@@ -122,8 +123,8 @@ body {
   position: absolute;
   top:0;
   left:0;
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 98%;
   object-fit: cover;
   z-index: -1;
 }
